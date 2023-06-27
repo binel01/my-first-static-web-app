@@ -1,7 +1,7 @@
 import { BlobServiceClient } from '@azure/storage-blob';
 
 // Clé de signature d'accès partagée
-const blobSasUrl = 'https://azcogtoragebineli1.blob.core.windows.net/?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2023-06-24T07:37:50Z&st=2023-06-15T23:37:50Z&spr=https&sig=zXz8sAsDD0oq6VZ31gyi8kMrCn7IJCfeJxUp1LBBrlU%3D';
+const blobSasUrl = 'https://azcogtoragebineli1.blob.core.windows.net/?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2023-07-28T23:09:52Z&st=2023-06-27T15:09:52Z&spr=https&sig=JCi5ZJwenF8%2B2A1%2F%2BJ0AzTa2HAPTewD0tNoY6LuIZu8%3D';
 
 // Nom du conteneur
 const containerName = 'images';
