@@ -29,9 +29,13 @@ const uploadFiles = async () => {
         for (const file of fileInput.files) {
             print(file.name);
             const blockBlobclient = containerClient.getBlockBlobClient(file.name);
-            promises.push(blockBlobclient.uploadBrowserData(file));
+            promises.push(blockBlobclient.uploadData(file));
+            //promises.push(blockBlobclient.uploadBrowserData(file));
         }
         await Promise.all(promises);
+        //.then(ressult => {
+        //    console.log(ressult);
+        //});
         reportStatus('Done.');
     }
 
